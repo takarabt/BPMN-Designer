@@ -69,4 +69,14 @@
             class="org.obeonetwork.dsl.dd.dc.util.DcResourceFactoryImpl"/>
    </extension>
 
+
+	<extension point="fr.obeo.dsl.viewpoint.collab.lockstrategy">
+	<lockStrategy	overrideDefaultStrategy="WHEN_CAN_APPLY"
+             	strategy="org.obeonetwork.dsl.bpmn2.lockstrategie.ProcessLockStrategie"
+             strategyID="org.obeonetwork.dsl.bpmn2.LockStrategie">
+   </lockStrategy>
+</extension>
+
+
+
 </plugin>
