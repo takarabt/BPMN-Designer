@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='org.eclipse.update.feature' id='org.obeonetwork.dsl.bpmn2.feature' version='1.0.0.201303281822'>
+    <properties size='7'>
+      <property name='artifact.size' value='6592'/>
+      <property name='download.size' value='6592'/>
+      <property name='download.md5' value='e6fd5a4f5ec8d0f687074d6641e2f25d'/>
+      <property name='maven-groupId' value='BPMN2'/>
+      <property name='maven-artifactId' value='org.obeonetwork.dsl.bpmn2.feature'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

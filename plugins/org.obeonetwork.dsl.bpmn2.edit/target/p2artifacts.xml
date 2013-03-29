@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='org.obeonetwork.dsl.bpmn2.edit' version='1.0.0.201303281822'>
+    <properties size='6'>
+      <property name='artifact.size' value='743044'/>
+      <property name='download.size' value='743044'/>
+      <property name='download.md5' value='45fdb7440959d3c25b81e25ed0fb1c60'/>
+      <property name='maven-groupId' value='BPMN2'/>
+      <property name='maven-artifactId' value='org.obeonetwork.dsl.bpmn2.edit'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+</artifacts>

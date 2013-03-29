@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.obeonetwork.dsl.bpmn2.design.doc' version='1.0.0.201303281822'>
+    <update id='org.obeonetwork.dsl.bpmn2.design.doc' range='[0.0.0,1.0.0.201303281822)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='BPMN2 Designer Documentation'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Obeo Network'/>
+      <property name='maven-groupId' value='BPMN2'/>
+      <property name='maven-artifactId' value='org.obeonetwork.dsl.bpmn2.design.doc'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.obeonetwork.dsl.bpmn2.design.doc' version='1.0.0.201303281822'/>
+      <provided namespace='osgi.bundle' name='org.obeonetwork.dsl.bpmn2.design.doc' version='1.0.0.201303281822'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.help' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.intro' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.obeonetwork.dsl.bpmn2.design.doc' version='1.0.0.201303281822'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Archiver-Version: Plexus Archiver&#xA;Bundle-Vendor: Obeo Network&#xA;Bundle-ManifestVersion: 2&#xA;Built-By: atakarabt&#xA;Require-Bundle: org.eclipse.help,org.eclipse.ui.intro&#xA;Bundle-Name: BPMN2 Designer Documentation&#xA;Manifest-Version: 1.0&#xA;Build-Jdk: 1.6.0_27&#xA;Bundle-SymbolicName: org.obeonetwork.dsl.bpmn2.design.doc;singleton:=true&#xA;Bundle-Version: 1.0.0.201303281822&#xA;Created-By: Apache Maven&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

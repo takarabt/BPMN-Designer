@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: org.obeonetwork.dsl.bpmn2.bpmdi.presentation,org.obeon
+ etwork.dsl.bpmn2.presentation,org.obeonetwork.dsl.dd.dc.presentation
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources;vi
+ sibility:=reexport,org.obeonetwork.dsl.bpmn2.edit;visibility:=reexpor
+ t,org.eclipse.emf.ecore.xmi;visibility:=reexport,org.eclipse.emf.edit
+ .ui;visibility:=reexport,org.eclipse.ui.ide;visibility:=reexport
+Bundle-Vendor: %providerName
+Bundle-Version: 1.0.0.201303281822
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.obeonetwork.dsl.bpmn2.presentation.Bpmn2EditorPl
+ ugin$Implementation
+Bundle-SymbolicName: org.obeonetwork.dsl.bpmn2.editor;singleton:=true
+

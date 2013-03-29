@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.help,org.eclipse.ui.intro
+Bundle-Vendor: Obeo Network
+Bundle-Version: 1.0.0.201303281822
+Bundle-Name: BPMN2 Designer Documentation
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.obeonetwork.dsl.bpmn2.design.doc;singleton:=t
+ rue
+

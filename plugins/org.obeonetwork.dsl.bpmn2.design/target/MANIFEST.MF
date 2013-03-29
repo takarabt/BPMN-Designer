@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Require-Bundle: fr.obeo.acceleo.gen,org.eclipse.ui,org.eclipse.core.ru
+ ntime,fr.obeo.dsl.viewpoint,org.eclipse.ui.ide,org.eclipse.core.resou
+ rces,fr.obeo.dsl.common,fr.obeo.dsl.viewpoint.ui,org.eclipse.core.exp
+ ressions,org.eclipse.emf.transaction,com.google.guava,org.obeonetwork
+ .dsl.bpmn2,fr.obeo.dsl.viewpoint.diagram
+Bundle-Vendor: Obeo
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 1.0.0.201303281822
+Bundle-Name: BPMN-Designer Viewpoint
+Bundle-Activator: org.obeonetwork.bpmn2.design.Activator
+Import-Package: org.eclipse.gmf.runtime.notation
+Provide-Package: org.obeonetwork.dsl.bpmn2.design
+Bundle-SymbolicName: org.obeonetwork.dsl.bpmn2.design;singleton=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+

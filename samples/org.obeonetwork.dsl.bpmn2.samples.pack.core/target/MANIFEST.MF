@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.obeonetwor
+ k.dsl.bpmn2.samples
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 1.0.0.201303281822
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-Activator: org.obeonetwork.dsl.bpmn2.samples.pack.core.CoreSamp
+ lePlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.obeonetwork.dsl.bpmn2.samples.pack.core;singl
+ eton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+

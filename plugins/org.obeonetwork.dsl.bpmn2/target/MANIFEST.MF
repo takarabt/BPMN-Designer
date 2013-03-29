@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Export-Package: org.obeonetwork.dsl.bpmn2,org.obeonetwork.dsl.bpmn2.bp
+ mdi,org.obeonetwork.dsl.bpmn2.bpmdi.util,org.obeonetwork.dsl.bpmn2.ut
+ il,org.obeonetwork.dsl.dd.dc,org.obeonetwork.dsl.dd.dc.util,org.obeon
+ etwork.dsl.dd.di,org.obeonetwork.dsl.dd.di.util
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.emf.ecore;visibil
+ ity:=reexport,org.eclipse.emf.ecore.xmi;visibility:=reexport
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Version: 1.0.0.201303281822
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.obeonetwork.dsl.bpmn2;singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
