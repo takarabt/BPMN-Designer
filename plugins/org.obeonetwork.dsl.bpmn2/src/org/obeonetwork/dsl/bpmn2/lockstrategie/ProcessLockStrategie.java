@@ -35,8 +35,6 @@ public class ProcessLockStrategie extends DefaultLockStrategy implements Viewpoi
 
         Collection<CDOObject> elementsToLock = new HashSet<CDOObject>();
 
-        Collection<CDOObject> elementsToUnLock = new HashSet<CDOObject>();
-
         Option<CDOObject> notifier = CDOViewpointUtil.getCDOObject((EObject) notification
                 .getNotifier());
 
@@ -45,13 +43,15 @@ public class ProcessLockStrategie extends DefaultLockStrategy implements Viewpoi
 
             System.out.println("hello : " + notification.getNotifier());
 
-            //CDOLockManager.INSTANCE.lockElementsFromNotification(notification);
+            //   CDOLockManager.INSTANCE.lockElementsFromNotification(notification);
 
-            elementsToLock.add((CDOObject) notifier.get());
+            //    CDOLockManager.INSTANCE.lockElementsFromNotification(notification);
+
+            //  elementsToLock.add((CDOObject) notifier.get());
 
         } else {
-            // Otherwise, we delegate the calculation of elements to lock
-            // to the Viewpoint default lock strategy
+            //
+            //  Viewpoint default lock strategy
 
             super.getElementsToLock(notification);
 
